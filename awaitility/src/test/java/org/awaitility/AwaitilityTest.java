@@ -285,7 +285,7 @@ public class AwaitilityTest {
                     throw new Exception("Nested");
                 }
             });
-            fail();
+            org.junit.Assert.fail();
         } catch (ConditionTimeoutException e) {
             assertNotNull(e.getCause());
             assertEquals("Nested", e.getCause().getMessage());
