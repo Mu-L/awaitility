@@ -9,7 +9,9 @@
 
     <properties>
         <animal.sniffer.skip>true</animal.sniffer.skip>
+        <maven.deploy.skip>true</maven.deploy.skip>
         <pax-exam.version>4.13.4</pax-exam.version>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
     </properties>
 
     <dependencies>

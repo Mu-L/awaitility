@@ -19,4 +19,9 @@
     <url>http://awaitility.org</url>
     <name>Awaitility Test Support</name>
     <description>Contains shared classes that is used for test purposes</description>
+
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+    </properties>
 </project>
