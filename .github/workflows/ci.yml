@@ -21,6 +21,8 @@ jobs:
               maven-profiles: '-P modern-jvm'
             - java: '21'
               maven-profiles: '-P modern-jvm'
+            - java: '25'
+              maven-profiles: '-P modern-jvm'
 
     runs-on: 'ubuntu-latest'
     steps:
