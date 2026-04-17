@@ -1,3 +1,7 @@
+Changelog next version
+----------------------
+* Clarified fail-fast documentation so that it correctly states that terminal failure happens when the fail-fast condition evaluates to true, and cleaned up related Javadocs (thanks to Mustafa Ulu for pull request).
+
 Changelog 4.3.0 (2025-02-21)
 ----------------------------
 * Support for kotlin.time.Duration in Kotlin DSL (thanks to Ivo Šmíd for PR)
