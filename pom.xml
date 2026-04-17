@@ -148,7 +148,7 @@
                 <configuration>
                     <serverId>${sonatype.nexus.staging.serverId}</serverId>
                     <nexusUrl>${sonatype.nexus.staging.url}</nexusUrl>
-                    <autoReleaseAfterClose>false</autoReleaseAfterClose>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
                     <!-- Keep the staging repo so close/promotion can be retried from the UI. -->
                     <keepStagingRepositoryOnCloseRuleFailure>true</keepStagingRepositoryOnCloseRuleFailure>
                 </configuration>
